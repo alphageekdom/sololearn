@@ -4,4 +4,6 @@ def convert(num):
     else:
         return (num % 2 + 10 * convert(num // 2))
 
-print(convert(156))
+
+number = int(input())
+print(convert(number))
