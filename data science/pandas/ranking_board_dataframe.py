@@ -8,3 +8,5 @@ data = {
 df = pd.DataFrame(data, index=data['name'])
 
 num = int(input())
+
+print(df[df['rank'] == num]['name'])
